@@ -109,8 +109,9 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
-    baseURL: process.env.NODE_ENV === "production" ? "/maos-design/" : "/",
-    // buildAssetsDir: "/static/",
+    // baseURL: process.env.NODE_ENV === "production" ? "/maos-design/" : "/",
+    baseURL: "/maos-design/",
+    buildAssetsDir: "/static/",
   },
 
   nitro: {
